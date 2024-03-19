@@ -4,7 +4,7 @@ from random import randrange
 from django.views import View
 from django.shortcuts import render, redirect
 import weather
-from weather.serializer import WeatherSerializer
+from weather.serializers import WeatherSerializer
 from .models import WeatherEntity
 from .repositories import WeatherRepository
 
